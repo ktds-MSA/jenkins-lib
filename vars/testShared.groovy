@@ -3,5 +3,5 @@ def echoTest(){
 }
 def call() {
 	echo "test outer"
-	echoTest
+	echoTest()
 }
